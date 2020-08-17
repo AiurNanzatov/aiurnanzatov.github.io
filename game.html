@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>TOMB RAIDER: THE RIDDLE</title>
+	</head>
+
+	<body bgcolor="#FFE4B5">
+
+		<div id="pointer"></div>
+		<div id="bar"><div id="health"></div></div>
+		<!-- <div id="gameover">
+			<i style="font-size: 60px; font-family: 'Frijole', cursive;">GAME OVER</i><br/>
+		</div> -->
+		<div id="container">
+			<div id="instructions">
+			<i style="font-size: 60px; font-family: 'Frijole', cursive;">LEFT-CLICK TO START!</i><br/>
+				<p style="font-size: 30px; font-family: 'Frijole', cursive;">Get out of the tomb and try not to be buried alive! <br>
+				Move: WASD or arrow keys<br>
+				Space: Jump <br>
+				Main weapon: F <br>
+				Secondary weapon: E <br>
+				<p style="font-size: 30px; font-family: 'Frijole', cursive;">BUT BE WARE AND WATCH YOUR STEP: IF THE DOOR CLOSES - YOU LOST!</p>
+				<p style="font-size: 30px; font-family: 'Frijole', cursive;">(HINT: YOU CAN SHOOT THE TORCHES TO BRING DOWN THE LIGHT)</p>
+				<p style="font-size: 30px; font-family: 'Frijole', cursive;">Refresh the page to Restart.</p>
+			</div>
+		</div>
+
+		<!-- libraries -->
+		<script src="js/three.min.js"></script>
+		<script type="text/javascript" src="js/cannon.js"></script>
+		<script type="text/javascript" src="js/threex.keyboardstate.js"></script>
+
+		<!-- mechanics  -->
+		<script type="text/javascript" src="js/skeleton.js"></script>
+		<script type="text/javascript" src="js/PointerLockControls.js"></script>
+        <script type="text/javascript" src="js/trigger.js"></script>
+        <script type="text/javascript" src="js/torch.js"></script>
+        <script type="text/javascript" src="js/heroProjectiles.js"></script>
+        <script type="text/javascript" src="js/disappearingObject.js"></script>
+        <script type="text/javascript" src="js/movingObject.js"></script>
+		<!-- rooms -->
+
+		<script type="text/javascript" src="js/createRoom1.js"></script>
+		<script type="text/javascript" src="js/createRoom2.js"></script>
+		<script type="text/javascript" src="js/createRoom3.js"></script>
+        <script type="text/javascript" src="js/createRoom4.js"></script>
+
+		<!-- main script -->
+		<script type="text/javascript" src="js/script.js"></script>
+
+	</body>
+
+</html>
